@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University Eduford</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Header -->
+    <section class="sub-header">
+        <nav>
+            <a href="index.html">
+                <img src="./img/logo.png" alt="" />
+            </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <a href="index.html">
+                        <li>HOME</li>
+                    </a>
+                    <a href="about.html">
+                        <li>ABOUT</li>
+                    </a>
+                    <a href="course.html">
+                        <li>COURSE</li>
+                    </a>
+                    <a href="blog.html">
+                        <li>BLOG</li>
+                    </a>
+                    <a href="contact.html">
+                        <li>CONTACT</li>
+                    </a>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+    </section>
+
+    <!-- Contact Content -->
+
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2947.3820615459244!2d-71.11884878466239!3d42.37700684202403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e377427d7f0199%3A0x5937c65cee2427f0!2sUniversidad%20de%20Harvard!5e0!3m2!1ses-419!2sar!4v1652807427342!5m2!1ses-419!2sar"
+            width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+              <h5>XYZ Road, ABC Building</h5>
+              <p>Boston</p>
+            </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+              <h5>+1 0123456789</h5>
+              <p>Monday to Saturday 10AM to 6PM</p>
+            </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+              <h5>info@hardvard.com</h5>
+              <p>Email us your query</p>
+            </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="form-handler.php" method="post">
+                    <input type="text" name="name" placeholder="Enter Name" required />
+                    <input type="email" name="email" placeholder="Enter Email" required />
+                    <input type="text" name="subject" placeholder="Enter your Subject" required />
+                    <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos, totam? Amet saepe vero nihil maxime id! Ducimus natus, architecto eligendi
+            <br /> veritatis iste adipisci illum quibusdam quo voluptatibus perferendis, delectus in!
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made With <i class="fa fa-heart-o"></i> by Ezequiel Giampaoli</p>
+    </section>
+
+    <!-- Custom JS -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
